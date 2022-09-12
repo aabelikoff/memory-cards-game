@@ -1,0 +1,23 @@
+.card {
+    position: relative;
+    z-index: 3;
+    border: 1px solid red;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+img {
+    z-index: 2;
+    position: relative;
+    max-width: 220px;
+    max-height: 250px;
+}
+
+.card p {
+    z-index: 2;
+    position: relative;
+    margin: 0;
+}
