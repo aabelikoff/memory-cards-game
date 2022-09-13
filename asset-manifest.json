@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/memory-cards-game/static/css/main.1e162f31.css",
+    "main.js": "/memory-cards-game/static/js/main.ef7db171.js",
+    "static/js/787.fd383d5a.chunk.js": "/memory-cards-game/static/js/787.fd383d5a.chunk.js",
+    "static/media/Minion Clipart 54040.png": "/memory-cards-game/static/media/Minion Clipart 54040.6c1fc4f9856286e4a946.png",
+    "static/media/Minion Clipart 54028.png": "/memory-cards-game/static/media/Minion Clipart 54028.b29593522792f457d0b1.png",
+    "static/media/Minion Clipart 54043.png": "/memory-cards-game/static/media/Minion Clipart 54043.577a241044ad7ceca84b.png",
+    "static/media/Minion Clipart 53972.png": "/memory-cards-game/static/media/Minion Clipart 53972.2936b05ef61333cc6004.png",
+    "static/media/Minion Clipart 54089.png": "/memory-cards-game/static/media/Minion Clipart 54089.5fcd4afc9ae9b86f0f6c.png",
+    "static/media/Minion Clipart 54080.png": "/memory-cards-game/static/media/Minion Clipart 54080.d3d1b0fa8b09dc4fb2b2.png",
+    "static/media/Minion Clipart 54132.png": "/memory-cards-game/static/media/Minion Clipart 54132.47e8bcdf9cf7d451512b.png",
+    "static/media/Minion Clipart 54081.png": "/memory-cards-game/static/media/Minion Clipart 54081.ea7113830c5d221636f8.png",
+    "static/media/Minion Clipart 53990.png": "/memory-cards-game/static/media/Minion Clipart 53990.0ed63cdb4e5fa785804b.png",
+    "static/media/Minion Clipart 53983.png": "/memory-cards-game/static/media/Minion Clipart 53983.64d035c8ce3496f077e5.png",
+    "static/media/Minion Clipart 54123.png": "/memory-cards-game/static/media/Minion Clipart 54123.da1b59457f65a1cb88f3.png",
+    "static/media/Minion Clipart 54139.png": "/memory-cards-game/static/media/Minion Clipart 54139.cd268e5d02988324f5d8.png",
+    "index.html": "/memory-cards-game/index.html",
+    "main.1e162f31.css.map": "/memory-cards-game/static/css/main.1e162f31.css.map",
+    "main.ef7db171.js.map": "/memory-cards-game/static/js/main.ef7db171.js.map",
+    "787.fd383d5a.chunk.js.map": "/memory-cards-game/static/js/787.fd383d5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e162f31.css",
+    "static/js/main.ef7db171.js"
+  ]
+}
