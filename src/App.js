@@ -1,42 +1,39 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import CardsContainer from './components/CardsContainer';
 import Score from './components/Score';
+import Logo from './images/logo-small.png';
 
 function App() {
   const [selectedCards, setSelectedCards] = useState([]);
 
-  useEffect(() => {
-    console.log('Use effect!');
-    const appElement = document.querySelector('.App');
-
-    const selectCard = (e) => {
-      if (e.target.className !== 'card') {
-        return;
-      }
-      if (selectedCards.find((elem) => elem === e.target.id)) {
-        setSelectedCards([]);
-      } else {
-        let copy = Object.assign([], selectedCards);
-        copy.push(e.target.id);
-        setSelectedCards(copy);
-      }
-    };
-
-    appElement.addEventListener('click', selectCard);
-
-    return () => {
-      appElement.removeEventListener('click', selectCard);
-    };
-  }, [selectedCards]);
+  const selectCard = (id) => {
+    if (selectedCards.find((elem) => elem === id)) {
+      console.log('Coinside!');
+      setSelectedCards([]);
+    } else {
+      let copy = Object.assign([], selectedCards);
+      copy.push(id);
+      setSelectedCards(copy);
+    }
+  };
 
   return (
     <div className="App">
-      <header>
-        <div className="app-name">Memory Card Game</div>
+      <header className="App-header">
+        <div className="App-logo">
+          <img src={Logo} alt="App-logo" />
+        </div>
+        <div>
+          <div className="App-name">Memory Card Game</div>
+          <p>Click pictures and do not repeat.</p>
+        </div>
         <Score score={selectedCards.length} />
       </header>
-      <CardsContainer />
+      <CardsContainer selectCard={selectCard} />
+      <div className="App-footer">
+        <p>Created by aabelikoff &copy;</p>
+      </div>
     </div>
   );
 }

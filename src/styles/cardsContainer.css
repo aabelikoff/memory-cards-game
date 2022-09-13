@@ -1,9 +1,11 @@
 .cards-container {
+    margin-top: 15vh;
+    padding-top: 3vh;
+    box-sizing: border-box;
     width: 100%;
-    border: 1px solid;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 20px;
 }

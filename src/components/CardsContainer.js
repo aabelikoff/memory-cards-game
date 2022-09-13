@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Card from './Card';
 import '../styles/cardsContainer.css';
 import useCardInfo from '../hooks/useCardsInfo';
@@ -15,7 +15,8 @@ function CardsContainer(props) {
             name={card.name}
             id={card.id}
             key={card.id}
-            onCardClick={shuffleCards}
+            shuffleCards={shuffleCards}
+            selectCard={props.selectCard}
           />
         );
       })}
